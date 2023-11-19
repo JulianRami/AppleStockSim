@@ -11,6 +11,7 @@ import { GraphicPrecioAppleComponent } from './graphic-precio-apple/graphic-prec
 import {NgxChartsModule} from "@swimlane/ngx-charts";
 import {GraphicPrecioSolanaComponent} from "./graphic-precio-solana/graphic-precio-solana.component";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     GraphicPrecioSolanaComponent
   ],
   imports: [
+    ToastrModule.forRoot(),
     BrowserModule,
     FormsModule,
     AppRoutingModule,
@@ -27,6 +29,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     HttpClientModule,
     NgxChartsModule,
     BrowserAnimationsModule
+
 
   ],
   providers: [],
