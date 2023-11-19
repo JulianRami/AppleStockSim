@@ -1,0 +1,48 @@
+header {
+  background-color: #3E7C95; /* Puedes cambiar el color de fondo según tus preferencias */
+  padding: 20px; /* Añade padding para separar el contenido del borde del encabezado */
+}
+
+/* Estilos para el título h1 dentro del encabezado */
+header h1 {
+  color: #ffffff; /* Color del texto (blanco en este caso) */
+  font-size: 36px; /* Tamaño de la letra */
+  text-align: center; /* Centrar el texto */
+  margin: 0; /* Eliminar el margen predeterminado del h1 */
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  padding: 20px 0; /* Espacio arriba y abajo */
+}
+
+
+.increment-container {
+  color: #100101;
+  font-family: serif;
+  font-size: 24px;
+}
+
+.custom-button {
+  font-family: serif; /* Fuente serif */
+  font-size: 20px; /* Tamaño de fuente */
+  color: #030303; /* Color de texto negro */
+  background-color: #6fa535; /* Fondo verde */
+  border: none; /* Quitar borde */
+  padding: 10px 20px; /* Espacio interno del botón */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  border-radius: 5px; /* Agregar bordes redondeados */
+  margin-right: 1%;
+  margin-top: 0%;
+}
+
+.custom-button:hover {
+  background-color: #568a2a; /* Cambiar color de fondo al pasar sobre el botón */
+}
+
+.main-content {
+  display: grid;;
+  justify-content: center;
+}

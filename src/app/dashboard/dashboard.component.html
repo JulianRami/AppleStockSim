@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <h1>AppleStock</h1>
+</header>
+<body>
+<div class="main-content">
+  <div>
+    <h2>Tabla precios solana</h2>
+    <app-graphic-precio-solana></app-graphic-precio-solana>
+  </div>
+  <br>
+  <div>
+    <h2>Tabla precios apple</h2>
+    <app-graphic-precio-apple></app-graphic-precio-apple>
+  </div>
+  <div class="button-container">
+    <div class="increment-container">
+      <span>Comprar 1 acción de apple &nbsp;&nbsp;&nbsp;</span>
+    </div>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <input type="submit" class="custom-button" (click)="onSubmit()" value="Comprar">
+  </div>
+  <div class="button-container">
+    <div class="increment-container">
+      <span>Numero ID de la cuenta: &nbsp;&nbsp;&nbsp; {{ datesRespon.cuenta }}</span>
+      <br>
+      <br>
+      <br>
+      <span>Balance billetera solana: &nbsp;&nbsp;&nbsp; {{ datesRespon.balance }}</span>
+      <br>
+      <br>
+      <br>
+      <span>Billetera solana: &nbsp;&nbsp;&nbsp; {{ datesRespon.billetera }}</span>
+      <br>
+      <br>
+      <br>
+      <span>Numero de acciones de apple: &nbsp;&nbsp;&nbsp; {{ datesRespon.cantidad }}</span>
+      <br>
+      <br>
+      <br>
+      <span>Numero ID del contrato: &nbsp;&nbsp;&nbsp; {{ datesRespon.idContrato }}</span>
+    </div>
+  </div>
+</div>
+<footer>
+</footer>
+</body>
+
+</html>
+
+
+
+
